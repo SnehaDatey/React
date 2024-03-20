@@ -1,0 +1,39 @@
+
+.h1{
+  margin: 0;
+}
+
+.topHeader{
+  background-color: #22a6b3;
+  padding: 14px;
+  text-align: center;
+  color: white;
+}
+
+.infoBox{
+  margin: 18px auto;
+  width: 38%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button{
+  background-color: #22a6b3;
+}
+
+.dataContainer{
+  margin-top: 25px;
+  flex-direction: column;
+}
+
+.dataWrapper{
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*background-color: #dadbdb;*/
+  padding: 0 15px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

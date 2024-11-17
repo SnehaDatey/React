@@ -1,0 +1,130 @@
+/* Existing CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    padding: 20px;
+}
+
+.card-content {
+    text-align: center;
+    padding: 50px 60px 50px 50px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.card img {
+    height: 50px;
+    width: 100px;
+    padding: 20px;
+}
+
+.img-container {
+    padding: 20px;
+}
+
+.goolgeLogoClass {
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.goolgeLogoClass img {
+    height: 30px;
+    
+}
+
+.emailText {
+    color: rgb(163, 161, 161);
+    font-size: 14px;
+}
+
+.loginBtn {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #09407f;
+    padding: 7px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.rightDiv {
+    background-color: #E6F2FF !important;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    right: 0;
+}
+
+.img-content {
+    width: 400px;
+    padding: 10px;
+    margin-top: 40px;
+    text-align: right;
+    margin-left: 70px;
+}
+
+.img-content p {
+    color: rgb(143, 141, 141);
+}
+
+.learnMoreBtn {
+    border: 1px solid rgb(143, 141, 141);
+    background-color: transparent;
+    padding: 0 5px;
+    font-size: 12px;
+    color: rgb(18, 19, 19);
+    font-weight: bold;
+}
+
+.card-holder {
+    background-color: #e6f2ff !important;
+    padding: 60px 0px 60px 60px;
+    border-top-left-radius: 10px;
+}
+
+.card-holder2 {
+    background-color: #09407f;
+    padding: 60px 60px 60px 0px;
+    border-top-right-radius: 10px;
+}
+
+.rightImgHolder img {
+    width: 485px;
+    height: 524px;
+}
+
+.is-invalid {
+    border-color: red !important; /* Red border to indicate error */
+}
+
+.signupDiv{
+    margin-top: 15px;
+}
+
+.invalid-feedback{
+    border: 1px solid gray;
+}
+
+.cnfPassword{
+    color: red;
+    
+}
+
+.cnfPassInvalid {
+    border-color: red !important; /* Red border to indicate error */
+}
+
+.errorClass{
+    margin-top: -20px;
+    font-size: 13px;
+    color: red;
+}
+
+.errorRole{
+    margin-top: 0px;
+}

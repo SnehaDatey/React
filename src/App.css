@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html{
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.form-control{
+  font-size: 2rem !important;
+}
+
+p,
+a,
+li,
+input{
+  font-size: 1.6rem;
+  letter-spacing: 0.12rem;
+  line-height: 1.5 rem;
+  color: #000;
+}
+
+.postBtn{
+  font-size: 17px !important;
+  padding: 5px;
+  width: 70px;
+  border: none;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.main-section{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px;
+}
+
+.section-form{
+  padding: 1.6rem;
+  background-color: #ffffff;
+  margin: 3.2rem auto;
+  border: 1px solid gray;
+}
+
+form{
+  display: flex;
+  gap: 1.2rem;
+
+}
+
+.section-post{
+  width: 90%;
+
+  ol{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3.2rem;
+
+  }
+
+  li{
+    
+    padding: 1.6rem;
+    border-radius: 0.3rem;
+    list-style-position: inside;
+    border-left: 0.2rem solid rgb(211, 190, 190);
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.addBtn{
+  font-size: 15px;
+}
+
+.pagination {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.pagination button.active {
+  background-color: #007bff;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.pagination button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-input {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 110%;
+  max-width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }

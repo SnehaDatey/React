@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react'
+import './App.css'
+import Navbar from './Component/Navbar/Navbar'
+import NewLogin from './Component/Login/NewLogin';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Dashboard from './Component/Dashboard/Dashboard';
+import ForgetPassword from './Component/Login/ForgetPassword';
+
 
 function App() {
+  const [selectedRole, setSelectedRole] = useState('');
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+   
+
+        <Router>
+          <div className="container">
+            <Navbar setSelectedRole={setSelectedRole}/>
+            <Routes>
+              <Route path="/" element={<NewLogin selectedRole={selectedRole} />} /> 
+              <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/forgotpassword" element={<ForgetPassword />} /> 
+            </Routes>
+          </div>
+        </Router>
+
+    </>
+  )
 }
 
-export default App;
+export default App

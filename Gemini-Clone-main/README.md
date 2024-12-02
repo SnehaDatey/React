@@ -1,18 +1,12 @@
 # Gemini Clone
 
 Gemini Clone is a project aimed at replicating the functionality of Gemini, powered by the Google Gemini API, using React and CSS.
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-  - [Core Features](#core-features)
-  - [Additional Features](#additional-features)
-  - [Potential Enhancements](#potential-enhancements)
-
-## Introduction
-
 This project introduces a React-based web application that functions as a clone of the Google Gemini AI chatbot. It provides a user-friendly interface for interacting with the powerful Gemini model, allowing you to ask questions and receive informative responses in a conversational manner.
+
+
+   ![gemin-ai](https://github.com/user-attachments/assets/95986577-114c-4137-9941-5911d2e862b7)
+
+   
 
 ## Features
 
@@ -39,3 +33,7 @@ This project introduces a React-based web application that functions as a clone 
 
    ```bash
    git clone https://github.com/iamakashpc/Gemini-Clone.git
+
+
+
+
